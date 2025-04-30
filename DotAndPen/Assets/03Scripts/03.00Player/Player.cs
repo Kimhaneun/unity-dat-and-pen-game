@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Player : MonoSingleton<Player>
 {
@@ -44,7 +41,7 @@ public class Player : MonoSingleton<Player>
     {
         if (currentLife <= 0)
             return true;
-        else 
+        else
             return false;
     }
 }
